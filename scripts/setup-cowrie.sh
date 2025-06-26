@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#This script goes into the bootfs for the raspberry pi. after, add it to the rc.local file. Also add rc.local 
+
 # Set static IP by appending to dhcpcd.conf
 echo -e "\ninterface eth0\nstatic ip_address=192.168.7.2/24\nstatic routers=192.168.7.1\nstatic domain_name_servers=8.8.8.8 1.1.1.1" >> /etc/dhcpcd.conf
 

@@ -1,0 +1,3 @@
+#!/bin/bash
+bash /boot/setup-cowrie.sh
+exit 0
